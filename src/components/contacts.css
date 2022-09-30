@@ -1,0 +1,25 @@
+.dados-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin:0 auto;
+    margin-top: 1em;
+    background-color: #232323;
+    transition: 200ms;
+}
+.dados-container p{
+    margin-left: 20px;
+}
+
+.dados-container:hover{
+    background-color: #302f2f;
+    transition:200ms ;
+}
+p:first-child{
+    font-size: 18px;
+}
+hr{
+    
+    width: 95%;
+}
